@@ -84,7 +84,7 @@ helm install rancher rancher-stable/rancher \
   --namespace cattle-system \
   --set hostname=your_host_name_here.local \
   --set replicas=3 \
-  --set bootstrapPassword=your_password_here
+  --set bootstrapPassword=your_password_here \
   --version=2.4.8
 ```
 
